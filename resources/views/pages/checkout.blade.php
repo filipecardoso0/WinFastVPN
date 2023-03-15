@@ -47,7 +47,7 @@
 
     </section>
 
-    <script src="https://www.paypal.com/sdk/js?client-id=AbzX7RsQ3aRE0sZHIOu8TGLjQ_ufcsMvY3k_G5rs6_nIcoY0zSTCocUgDfBw0ffW8iuQIcyWiaF7XnqB&currency=EUR&locale=en_GB"></script>
+    <script src="https://www.paypal.com/sdk/js?client-id=ATmdcL1LQ3VT_XG6oA5Fc-XY3uIhBJr9IdArNMaTonvjnJpLrlfzMWjSAX6kftwQ75nxJquPAEu2KUKB&currency=EUR&locale=en_GB"></script>
     <script>
         function encodeForAjax(data) {
             return Object.keys(data).map(function(k){
