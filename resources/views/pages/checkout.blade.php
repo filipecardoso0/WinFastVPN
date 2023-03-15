@@ -58,10 +58,11 @@
         function useDiscountCode(){
 
             const vouchercode = document.getElementById('voucher')
+            const parsedvouchercode = vouchercode.value.toUpperCase()
 
             //Perform AJAX Request to VoucherController in order to verify the given discount code
             const xml = new XMLHttpRequest();
-            xml.open('GET', '/api/voucher/' + vouchercode.value, true)
+            xml.open('GET', '/api/voucher/' + parsedvouchercode, true)
             xml.setRequestHeader("X-CSRF-TOKEN", document.head.querySelector("[name=csrf-token]").content);
             xml.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
             xml.send()
