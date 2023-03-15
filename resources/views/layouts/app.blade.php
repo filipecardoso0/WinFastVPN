@@ -84,7 +84,7 @@
           <div class="container p-4 pb-0">
               <div class="d-flex justify-content-between align-items-center" style="font-weight: 500">
                   <div class="d-flex flex-row">
-                      <p>24/7 Support on Discord <i class="fa-brands fa-discord"></i> : WinFastVPN#2319</p>
+                      <p>24/7 Support on Discord <i class="fa-brands fa-discord"></i> : WinFastVPN#1768</p>
                   </div>
                   <div>
                       <p><a href="{{route('privacy')}}" style="text-decoration: none; color: white">Privacy policy</a></p>

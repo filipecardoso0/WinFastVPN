@@ -129,7 +129,7 @@
                         <li>With the consent of users, which users can withdraw at any time.</li>
                     </ol>
             </ol>
-            <p>You can exercise your rights under the GDPR to access, transfer, correct, delete, or object to the processing of your personal information by contacting us at <!--TODO ADD EMAIL-->.</p>
+            <p>You can exercise your rights under the GDPR to access, transfer, correct, delete, or object to the processing of your personal information by contacting us at <span style="text-decoration: underline">support@winfastvpn.com</span>.</p>
         </div>
 
         <h2 class="mt-3">Changes to the Privacy Policy</h2>
@@ -138,10 +138,10 @@
             <p>We may change our Privacy Policy from time to time, without prior notice to you, consistent with applicable privacy laws and principles. Your continued use of the Site or Services constitutes your acceptance of our Privacy Policy.</p>
         </div>
 
-        <h2 class="mt-3">How to Contact SBMMOFF</h2>
+        <h2 class="mt-3">How to Contact WinFastVPN</h2>
 
         <div>
-            <p>If you have any questions regarding our Privacy Policy and how we handle your information, please feel free to contact SBMMOFF at the following email address: <!-- TODO ADD EMAIL ADDRESS --></p>
+            <p>If you have any questions regarding our Privacy Policy and how we handle your information, please feel free to contact WinFastVPN at the following email address: <span style="text-decoration: underline">support@winfastvpn.com</span>.</p>
         </div>
 
     </div>
