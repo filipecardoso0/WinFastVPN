@@ -42,6 +42,18 @@
             text-align: center;
         }
     </style>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-78VTHN608Y">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-78VTHN608Y');
+    </script>
+
 </head>
 <body class="bg-dark">
     <div>
