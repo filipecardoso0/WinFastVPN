@@ -45,7 +45,7 @@ class ProfileDownloadController extends Controller
         }
         else if($server === 'hawai'){
             $file = public_path()."/profiles/Win Fast VPN - Hawai - Warzone 2.ovpn";
-            $name = "Win Fast VPN - Hawai - Warzone 2";
+            $name = "Win Fast VPN - Hawai - Warzone 2.ovpn";
         }
         else if($server === 'singapore'){
             $file = public_path()."/profiles/Win Fast VPN - Singapore - Warzone 2.ovpn";

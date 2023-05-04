@@ -124,10 +124,14 @@
         paypal.Buttons({
             // Sets up the transaction when a payment button is clicked
             createOrder: (data, actions) => {
+                function getFinalPrice() {
+                    return (document.getElementById('voucherdiscount') ? {{$product->price}}*0.05 : {{$product->price}})
+                }
+
                 return actions.order.create({
                     purchase_units: [{
                         amount: {
-                            value: {{$product->price}}
+                            value: getFinalPrice()
                         }
                     }]
                 });
