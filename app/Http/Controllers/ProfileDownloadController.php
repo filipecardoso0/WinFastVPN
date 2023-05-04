@@ -23,9 +23,9 @@ class ProfileDownloadController extends Controller
             $file = public_path()."/profiles/Win Fast VPN - India - Warzone 2.ovpn";
             $name = "Win Fast VPN - India - Warzone 2.ovpn";
         }
-        else if($server === 'chile'){
-            $file = public_path()."/profiles/Win Fast VPN - Chile - Warzone 2.ovpn";
-            $name = "Win Fast VPN - Chile - Warzone 2.ovpn";
+        else if($server === 'israel'){
+            $file = public_path()."/profiles/Win Fast VPN - Israel - Warzone 2.ovpn";
+            $name = "Win Fast VPN - Israel - Warzone 2.ovpn";
         }
         else if($server === 'mexico'){
             $file = public_path()."/profiles/Win Fast VPN - Mexico - Warzone 2.ovpn";
@@ -45,7 +45,7 @@ class ProfileDownloadController extends Controller
         }
         else if($server === 'hawai'){
             $file = public_path()."/profiles/Win Fast VPN - Hawai - Warzone 2.ovpn";
-            $name = "Win Fast VPN - Hawai - Warzone 2";
+            $name = "Win Fast VPN - Hawai - Warzone 2.ovpn";
         }
         else if($server === 'singapore'){
             $file = public_path()."/profiles/Win Fast VPN - Singapore - Warzone 2.ovpn";

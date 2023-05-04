@@ -22,6 +22,24 @@
 
     </section>
 
+    <!-- Important Notes Accordion -->
+    <div class="accordion accordion-flush mt-3 mx-4" id="accordionFlushExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed text-danger" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    ** MAY/2023 UPDATE **
+                </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <ol>
+                        <li>Starting on <span class="text-danger">May 4th</span> VPN profiles will be reset on the start of each month due to maintenance reasons. Therefore, players will have to download them again.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- How to download accordion -->
     <div class="accordion accordion-flush mt-3 mx-4" id="accordionFlushExample">
         <div class="accordion-item">
@@ -68,11 +86,11 @@
 
             <!-- CHILE -->
             <article class="card col-4" style="width: 18rem;">
-                <img src="../images/flags/chileflag.png" class="card-img-top" alt="...">
+                <img src="../images/flags/israelflag.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Chile - Santiago</h5>
+                    <h5 class="card-title">Israel - Tel Aviv</h5>
                     @if($subscriptionstatus === true)
-                        <a href="{{route('download', 'chile')}}" class="btn btn-danger">Download <i class="fa-solid fa-download"></i></a>
+                        <a href="{{route('download', 'israel')}}" class="btn btn-danger">Download <i class="fa-solid fa-download"></i></a>
                     @else
                         <p>Purchase a subscription in order to download</p>
                     @endif
